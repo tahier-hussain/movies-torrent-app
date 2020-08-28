@@ -1,0 +1,13 @@
+1) there is problem with the shorting in seeds and peers so change the first shorting according to the max seeds and peers to low seeds and peers
+
+2) if magnet link is not there then remove that data from the response 
+
+3) there is some response not showing the resolution, set them
+
+4) if i will pass the data with the language perameter then you have to merge two data one is with language perameter with gives a movie in specific language and another is without laguage peram.
+example:- (0.0.0.0:3000/Movies?Search=Tenet&Year=2020&Language=Hindi  +   0.0.0.0:3000/Movies?Search=Tenet&Year=2020)
+
+
+5) there is problem in season and episode. when i find the specific episode of specific season then now it provides me the diffrent data so change the reposnse so i get the accurate results. in this i want you to merge two responses (0.0.0.0:3000/Movies?Search=breaking%20bad&Season=01&Episode=01&Language=Hindi     +    0.0.0.0:3000/Movies?Search=breaking%20bad&Season=01&Episode=01   +      0.0.0.0:3000/Movies?Search=breaking%20bad&Season=01) 
+
+6) Remove all the results which has less then 10 seeds and peers.
