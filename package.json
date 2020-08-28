@@ -23,5 +23,5 @@
     "torrent-indexer": "^1.2.1",
     "torrent-search-api": "^2.1.1"
   },
-  "proxy": "http://localhost:5000"
+  "proxy": "http://localhost:3001"
 }
